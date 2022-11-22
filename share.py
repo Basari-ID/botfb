@@ -1,3 +1,4 @@
+# BERI BINTANG BANG #
 #---#---#------[AUTHOR BASARI------#---#---#
 ###----------[ IMPORT LIBRARY ]---------- ###
 import requests, os, re, bs4, calendar, sys, json, time, random, datetime, subprocess, logging, base64,uuid
@@ -72,7 +73,7 @@ ua_windows = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, li
 ua_chrome  = 'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.58 Mobile Safari/537.36'
 ua_fb      = 'Mozilla/5.0 (Linux; Android 8.0.0; RNE-L21 Build/HUAWEIRNE-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/360.0.0.30.113;]'
 ua_random = random.choice([ua_default,ua_samsung,ua_nokia,ua_xiaomi,ua_oppo,ua_vivo,ua_iphone,ua_asus,ua_lenovo,ua_huawei,ua_windows,ua_chrome,ua_fb])
-kom1 = ("mantap bang scriptnya 🥰\n \nkomentar ditulis oleh bot baz\n \n[{waktu}-{hari}-{tanggal}]")
+kom1 = ("mantap bang scriptnya 🥰\n \nkomentar ditulis oleh bot baz\n \n[><]")
 ###----------[ INI LOGO ]----------###	
 def logo_menu():
  li = '# SELAMAT DATANG DI TOOLS AUTO SHARE FACEBOOK'
