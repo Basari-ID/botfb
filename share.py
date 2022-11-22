@@ -1,4 +1,4 @@
-# BERI BINTANG BANG #
+
 #---#---#------[AUTHOR BASARI------#---#---#
 ###----------[ IMPORT LIBRARY ]---------- ###
 import requests, os, re, bs4, calendar, sys, json, time, random, datetime, subprocess, logging, base64,uuid
