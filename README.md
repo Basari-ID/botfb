@@ -27,6 +27,10 @@ $ python share.py
 
 > itu karena cookies invalid
 
-> untuk mengatasinya coba
+> atau akun tumbal kena spam
 
-> jalankan lagi scriptnya
+> cara mengatasinya coba ganti
+
+> akun tumbal dan jalankan
+
+> lagi script auto sharenya
