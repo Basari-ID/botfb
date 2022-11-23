@@ -1,5 +1,5 @@
 #-[RECODE_AJA_JANGAN_LUPA_KASIH_BINTANG-#
-#---#---#------[AUTHOR BASARI------#---#---#
+#---#---#------[AUTHOR BASARI]------#---#---#
 ###----------[ IMPORT LIBRARY ]---------- ###
 import requests, os, re, bs4, calendar, sys, json, time, random, datetime, subprocess, logging, base64,uuid
 from datetime import datetime
