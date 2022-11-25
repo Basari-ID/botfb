@@ -148,4 +148,4 @@ def bot_share():
 		print(f"\n{P}(!) Anda tidak terhubung ke internet!");exit()
 bot_share()
 
-
+Y
